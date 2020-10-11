@@ -2,6 +2,11 @@
 
 ### Simple database design
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/15135199/95685505-7cf84980-0c22-11eb-8573-8e4f1f0ab774.JPG" width="600">
+</p>
+
+
     create table customer (
        id BIGINT NOT NULL AUTO_INCREMENT,
        first_name VARCHAR(255) NOT NULL,
