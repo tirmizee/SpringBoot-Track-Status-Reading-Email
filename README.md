@@ -6,6 +6,7 @@
   <img src="https://user-images.githubusercontent.com/15135199/95685505-7cf84980-0c22-11eb-8573-8e4f1f0ab774.JPG" width="500">
 </p>
 
+#### script create table
 
     create table customer (
        id BIGINT NOT NULL AUTO_INCREMENT,
