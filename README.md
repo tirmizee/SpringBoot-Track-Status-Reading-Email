@@ -30,3 +30,5 @@
        PRIMARY KEY (id),
        FOREIGN KEY (customer_id) REFERENCES customer(id)
     );
+
+    CREATE UNIQUE INDEX idx_token ON send_mail (token);
