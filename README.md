@@ -1,5 +1,17 @@
 # SpringBoot-Track-Status-Reading-Email
 
+### Concept
+
+#### 1. ออกแบบตารางฐานข้อมูลโดยมี Field "สำหรับเก็บสถานะการอ่านอีเมล"
+
+#### 2. เมื่อมีการส่งอีเมลให้เพิ่มข้อมูลลงในตารางดังกล่าว พร้อมกับแนบ tag 
+
+    <img style="display:none" src="https://yoursite/emailIdOrToken"width="1" height="1">
+
+ลงใน tempplate email
+
+#### 
+
 ### Simple database design
 
 <p align="center">
