@@ -10,7 +10,7 @@
 
         <img style="display:none" src="https://yoursite/emailIdOrToken"width="1" height="1">
 
-ลงใน tempplate email และระบุ url ให้เรียกมาที่ api อัพเดทสถาะการอ่านอีเมล
+ลงใน tempplate email พร้มกับระบุ url ให้เรียกมาที่ api อัพเดทสถาะการอ่านอีเมลของเรา
 
 4. เมื่อผู้ที่ได้รับเมลเปิดอ่าน ระบบจะทำการ render template email ส่งผลให้ tag ต่างๆ ถูกเรียกใช้พ้อมกับ url อัพเดทสถานะการอ่านอีเมลที่เราแนบเข้าไป
 
