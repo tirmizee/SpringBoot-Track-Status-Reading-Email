@@ -2,15 +2,17 @@
 
 ### Concept
 
-#### 1. ออกแบบตารางฐานข้อมูลโดยมี Field "สำหรับเก็บสถานะการอ่านอีเมล"
+1. ออกแบบตารางฐานข้อมูลโดยมี Field "สำหรับเก็บสถานะการอ่านอีเมล"
 
-#### 2. เมื่อมีการส่งอีเมลให้เพิ่มข้อมูลลงในตารางดังกล่าว พร้อมกับแนบ tag 
+2. สร้าง api สำหรับอัพเดทสถาะการอ่านอีเมล
 
-    <img style="display:none" src="https://yoursite/emailIdOrToken"width="1" height="1">
+3. เมื่อมีการส่งอีเมลให้เพิ่มข้อมูลลงในตารางดังกล่าว พร้อมกับแนบ tag 
 
-ลงใน tempplate email
+        <img style="display:none" src="https://yoursite/emailIdOrToken"width="1" height="1">
 
-#### 
+ลงใน tempplate email และระบุ url ให้เรียกมาที่ api อัพเดทสถาะการอ่านอีเมล
+
+4. เมื่อผู้ที่ได้รับเมลเปิดอ่าน ระบบจะทำการ render template email ส่งผลให้ tag ต่างๆ ถูกเรียกใช้พ้อมกับ url อัพเดทสถานะการอ่านอีเมลที่เราแนบเข้าไป
 
 ### Simple database design
 
